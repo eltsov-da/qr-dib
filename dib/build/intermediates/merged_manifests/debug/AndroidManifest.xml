@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appindesign.dib"
+    android:versionCode="7"
+    android:versionName="1.7" > <!-- API 14 is required for beam -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="29" />
+
+    <!-- PERMISSIONS -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- FEATURES -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- APPLICATION -->
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_dib"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+
+        <!-- MAIN ACTIVITY -->
+        <activity
+            android:name="com.appindesign.dib.Dib"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+
+            <!-- android:screenOrientation="portrait" -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.com.appindesign.dib" />
+            </intent-filter>
+        </activity>
+
+        <!-- PREFERENCES ACTIVITY -->
+        <activity
+            android:name="com.appindesign.dib.Preferences"
+            android:label="@string/prefstitle"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.appindesign.dibber" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.appindesign.dib.LocalStore"
+            android:authorities="com.appindesign.dib.LocalStore" />
+    </application>
+
+</manifest>

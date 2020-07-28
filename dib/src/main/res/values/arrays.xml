@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resultSlipColumnTags">
+        <item>leg</item>
+        <item>code</item>
+        <item>timestamp</item>
+        <item>splitTimestamp</item>
+        <item>elapsedTimestamp</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_dibscreen"
+        android:title="@string/menuHome"
+        appcompat:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_result"
+        android:title="@string/menuResult"/>
+    <item
+        android:id="@+id/menu_send"
+        android:title="Отправить на сайт"/>
+    <item
+        android:id="@+id/menu_preferences"
+        android:title="@string/menuPreferences"/>
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menuAbout"/>
+
+</menu>

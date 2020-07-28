@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.appindesign.dib",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 7,
+        "versionName": "1.7",
+        "outputFile": "dib-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.appindesign.dib",
+        "split": "",
+        "minSdkVersion": "8"
+      }
+    }
+  ]
+}

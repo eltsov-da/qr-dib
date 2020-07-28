@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Names -->
+    <string name="app_name">dib</string>
+    <string name="appNameVerbose">dib</string>
+
+    <!-- Menu Strings -->
+    <string name="menuPreferences">Настройки</string>
+    <string name="menuAbout">О программе</string>
+    <string name="menuResult">Результат</string>
+    <string name="menuSwitch">Switch</string>
+    <string name="menuDib">dib</string>
+    <string name="menuHome">Назад</string>
+    <string name="menuSend">Отправить на сайт</string>
+    <string name="menuShareQr">Отправить QR</string>
+    <string name="version">версия</string>
+    <string name="copyright">\u00a9 Copyright Appin Design 2014. All rights reserved.</string>
+    <string name="website"><a href="http://www.appindesign.com/dib">www.appindesign.com/dib</a></string>
+
+	<!-- Results Slip Headings -->
+    <string name="leg">Nпп</string>
+    <string name="code">КП</string>
+    <string name="timestamp">Время</string>
+    <string name="splitTime">Сплит</string>
+    <string name="elapsedTime">Сумма</string>
+    
+    <string name="courseName">Дистанция</string>
+    <string name="courseLength">Длинна</string>
+    <string name="numberOfControls">Число КП</string>
+    <string name="dash">-</string>
+    
+    <string name="identifier">ID</string>
+    <string name="classification">Classification</string>
+    <string name="competitor">Участник</string>
+    <string name="club">Команда</string>
+    
+    <string name="dibButton">dib Button</string>
+
+    <!-- Other Strings -->
+    <string name="err">ERR</string>
+    <string name="additional">Additional</string>
+    <string name="missing">Missing</string>
+    <string name="crs">CRS</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="metres">м</string>
+    <string name="controls">КП</string>
+
+    <!-- Error Messages -->
+    <string name="notScanned">QR кп непрочитан</string>
+    <string name="invalid_course">Ошибка дистнанции.</string>
+    <string name="noNfc">NFC не доступно. Включите NFC или используйте режим QR.</string>
+    <string name="notQrMode">Режим QR выключен. Включите режим QR в настройках</string>
+    <string name="noZxing">zxing не установлен. Чтобы использовать режим QR установите zxing из Google Play.</string>
+    <string name="noDownloadParameter">Метка содержит не правильные данные. Результат не отправлен.</string>
+
+    <!-- Preference Strings -->
+    <string name="prefstitle">Настройки</string>
+
+    <!-- Competitor Preferences Category -->
+    <string name="prefcat_competitor">Данные участника</string>
+    <string name="preftit_surname">Фамилия</string>
+    <string name="prefsum_surname">Введите фамилию</string>
+    <string name="prefdef_surname">Фамилия</string>
+    <string name="preftit_forename">Имя</string>
+    <string name="prefsum_forename">Введите Имя</string>
+    <string name="prefdef_forename">Имя</string>
+    <string name="preftit_club">Команда</string>
+    <string name="prefsum_club">Введите название команды</string>
+    <string name="prefdef_club">Команда</string>
+    <string name="preftit_class">Группа</string>
+    <string name="prefsum_class">Укажите свою группу</string>
+    <string name="prefdef_class">Группа</string>
+    <string name="preftit_id">Номер</string>
+    <string name="prefsum_id">Укажите свой номер(если используется)</string>
+    <string name="prefdef_id">Номер</string>
+
+    <!-- Dibber Preferences Category -->
+    <string name="prefcat_dibber">Настройки</string>
+    <string name="preftit_mode">Режим QR</string>
+    <string name="prefsum_mode">Выберете NFC или QR </string>
+    <string name="prefdef_mode">Выключен</string>
+    <string name="nfc_mode">Выключен</string>
+    <string name="qr_mode">ВКлючен</string>
+    <string name="preftit_screenon">Экран</string>
+    <string name="prefsum_screenon">Держать экран включенным</string>
+    <string name="prefdef_screenon">Выключено</string>
+    <string name="screenon_enabled">Включено</string>
+    <string name="screenon_disabled">Включено</string>
+    <string name="preftit_wakelock">Включать экран</string>
+    <string name="prefsum_wakelock">Вкл/Выкл включение экрана</string>
+    <string name="prefdef_wakelock">Выключено</string>
+    <string name="wakelock_enabled">Включено</string>
+    <string name="wakelock_disabled">Выключено</string>
+    <string name="prefsum_site">URL для отправки</string>
+    <string name="prefdef_site">http://qr-orient.ru/qrdib/load/</string>
+    <string name="preftit_site">URL для отправки</string>
+
+</resources>

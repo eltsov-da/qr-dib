@@ -1,0 +1,163 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From dib:
+* proguard-project.txt
+From dibLibrary:
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\appindesign\
+* doc\com\appindesign\diblibrary\
+* doc\com\appindesign\diblibrary\BuildConfig.html
+* doc\com\appindesign\diblibrary\Competitor.html
+* doc\com\appindesign\diblibrary\ControlCard.html
+* doc\com\appindesign\diblibrary\Course.html
+* doc\com\appindesign\diblibrary\Msg.html
+* doc\com\appindesign\diblibrary\Punch.html
+* doc\com\appindesign\diblibrary\R.anim.html
+* doc\com\appindesign\diblibrary\R.attr.html
+* doc\com\appindesign\diblibrary\R.bool.html
+* doc\com\appindesign\diblibrary\R.color.html
+* doc\com\appindesign\diblibrary\R.dimen.html
+* doc\com\appindesign\diblibrary\R.drawable.html
+* doc\com\appindesign\diblibrary\R.html
+* doc\com\appindesign\diblibrary\R.id.html
+* doc\com\appindesign\diblibrary\R.integer.html
+* doc\com\appindesign\diblibrary\R.layout.html
+* doc\com\appindesign\diblibrary\R.string.html
+* doc\com\appindesign\diblibrary\R.style.html
+* doc\com\appindesign\diblibrary\R.styleable.html
+* doc\com\appindesign\diblibrary\class-use\
+* doc\com\appindesign\diblibrary\class-use\BuildConfig.html
+* doc\com\appindesign\diblibrary\class-use\Competitor.html
+* doc\com\appindesign\diblibrary\class-use\ControlCard.html
+* doc\com\appindesign\diblibrary\class-use\Course.html
+* doc\com\appindesign\diblibrary\class-use\Msg.html
+* doc\com\appindesign\diblibrary\class-use\Punch.html
+* doc\com\appindesign\diblibrary\class-use\R.anim.html
+* doc\com\appindesign\diblibrary\class-use\R.attr.html
+* doc\com\appindesign\diblibrary\class-use\R.bool.html
+* doc\com\appindesign\diblibrary\class-use\R.color.html
+* doc\com\appindesign\diblibrary\class-use\R.dimen.html
+* doc\com\appindesign\diblibrary\class-use\R.drawable.html
+* doc\com\appindesign\diblibrary\class-use\R.html
+* doc\com\appindesign\diblibrary\class-use\R.id.html
+* doc\com\appindesign\diblibrary\class-use\R.integer.html
+* doc\com\appindesign\diblibrary\class-use\R.layout.html
+* doc\com\appindesign\diblibrary\class-use\R.string.html
+* doc\com\appindesign\diblibrary\class-use\R.style.html
+* doc\com\appindesign\diblibrary\class-use\R.styleable.html
+* doc\com\appindesign\diblibrary\package-frame.html
+* doc\com\appindesign\diblibrary\package-summary.html
+* doc\com\appindesign\diblibrary\package-tree.html
+* doc\com\appindesign\diblibrary\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-21.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:21.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:21.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In dibLibrary:
+* AndroidManifest.xml => dibLibrary\src\main\AndroidManifest.xml
+* assets\ => dibLibrary\src\main\assets\
+* res\ => dibLibrary\src\main\res\
+* src\ => dibLibrary\src\main\java\
+In dib:
+* AndroidManifest.xml => dib\src\main\AndroidManifest.xml
+* assets\ => dib\src\main\assets\
+* lint.xml => dib\lint.xml
+* res\ => dib\src\main\res\
+* src\ => dib\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

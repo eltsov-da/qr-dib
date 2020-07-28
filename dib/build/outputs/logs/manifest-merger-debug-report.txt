@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [:dibLibrary] F:\HdmiExtenderService\qrdib\dib\dibLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\ad8648b0514ada5a1e3f44f52c4c712d\appcompat-v7-21.0.3\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\67f35012068d83c458e1cf7a312687b8\support-v4-21.0.3\AndroidManifest.xml:14:4-17:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+MERGED from [:dibLibrary] F:\HdmiExtenderService\qrdib\dib\dibLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:dibLibrary] F:\HdmiExtenderService\qrdib\dib\dibLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\ad8648b0514ada5a1e3f44f52c4c712d\appcompat-v7-21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\ad8648b0514ada5a1e3f44f52c4c712d\appcompat-v7-21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\67f35012068d83c458e1cf7a312687b8\support-v4-21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\67f35012068d83c458e1cf7a312687b8\support-v4-21.0.3\AndroidManifest.xml:15:5-42
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+	android:targetSdkVersion
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:15-44
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+		INJECTED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:11:22-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:12:22-65
+uses-permission#com.android.vending.BILLING
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.INTERNET
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:17:22-64
+uses-feature#android.hardware.nfc
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:5-82
+	android:required
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:55-79
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:19-54
+uses-feature#android.hardware.telephony
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:5-87
+	android:required
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:61-85
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:19-60
+uses-feature#android.hardware.camera
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:5-84
+	android:required
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:58-82
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:19-57
+supports-screens
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:5-138
+	android:largeScreens
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:23-50
+	android:smallScreens
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:80-107
+	android:normalScreens
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:51-79
+	android:xlargeScreens
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:108-136
+application
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:27:5-66:19
+MERGED from [:dibLibrary] F:\HdmiExtenderService\qrdib\dib\dibLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-11:19
+MERGED from [:dibLibrary] F:\HdmiExtenderService\qrdib\dib\dibLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-11:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\ad8648b0514ada5a1e3f44f52c4c712d\appcompat-v7-21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\ad8648b0514ada5a1e3f44f52c4c712d\appcompat-v7-21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\67f35012068d83c458e1cf7a312687b8\support-v4-21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\eltsov.T-PROJECT\.gradle\caches\transforms-2\files-2.1\67f35012068d83c458e1cf7a312687b8\support-v4-21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:29:9-40
+	android:allowBackup
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:32:9-40
+	android:usesCleartextTraffic
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:31:9-44
+activity#com.appindesign.dib.Dib
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:35:9-50:20
+	android:label
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:36:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:43:27-74
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:mimeType:application/vnd.com.appindesign.dib
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:45:13-49:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:46:25-74
+category#android.intent.category.DEFAULT
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:27-73
+data
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:48:17-80
+	android:mimeType
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:48:23-77
+activity#com.appindesign.dib.Preferences
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:53:9-61:20
+	android:screenOrientation
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:55:13-47
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:54:13-59
+intent-filter#action:name:com.appindesign.dibber+category:name:android.intent.category.DEFAULT
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:57:13-60:29
+action#com.appindesign.dibber
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:58:17-65
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:58:25-62
+provider#com.appindesign.dib.LocalStore
+ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:63:9-65:68
+	android:authorities
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:65:13-65
+	android:name
+		ADDED from F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:64:13-58

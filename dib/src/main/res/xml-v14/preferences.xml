@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/prefcat_competitor">
+        <EditTextPreference
+            android:title="@string/preftit_forename"
+            android:summary="@string/prefsum_forename"
+            android:defaultValue="@string/prefdef_forename"
+            android:key="prefkey_forename"
+        />
+        <EditTextPreference
+            android:title="@string/preftit_surname"
+            android:summary="@string/prefsum_surname"
+            android:defaultValue="@string/prefdef_surname"
+            android:key="prefkey_surname"
+        />        
+        <EditTextPreference
+            android:title="@string/preftit_club"
+            android:summary="@string/prefsum_club"
+            android:defaultValue="@string/prefdef_club"
+            android:key="prefkey_club"
+        />
+        <EditTextPreference
+            android:title="@string/preftit_class"
+            android:summary="@string/prefsum_class"
+            android:defaultValue="@string/prefdef_class"
+            android:key="prefkey_class"
+        />
+        <EditTextPreference
+            android:title="@string/preftit_id"
+            android:summary="@string/prefsum_id"
+            android:defaultValue="@string/prefdef_id"
+            android:key="prefkey_id"
+        />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prefcat_dibber">
+        <SwitchPreference
+            android:title="@string/preftit_mode"
+            android:switchTextOff="@string/off"
+            android:switchTextOn="@string/on"
+            android:defaultValue="@string/prefdef_mode"
+            android:key="prefkey_qrmode"
+        />
+        <SwitchPreference
+            android:title="@string/preftit_wakelock"
+            android:switchTextOff="@string/off"
+            android:switchTextOn="@string/on"
+            android:defaultValue="@string/prefdef_wakelock"
+            android:key="prefkey_wakelock"
+        />
+        <EditTextPreference
+            android:title="@string/preftit_site"
+            android:summary="@string/prefsum_site"
+            android:defaultValue="@string/prefdef_site"
+            android:key="prefkey_site"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

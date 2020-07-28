@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors are from the material palette. -->
+    <!-- Blue -->
+    <color name="primary">#5677fc</color>
+    <color name="primaryLight">#d0d9ff</color>
+    <color name="primaryDark">#455ede</color>
+    <!-- Red -->
+    <color name="accent">#e51c23</color>
+    <color name="accentLight">#f9bdbb</color>
+    <color name="accentDark">#d01716</color>
+    <!-- Text -->
+    <color name="text">#cc000000</color>
+    <color name="secondaryText">#89000000</color>
+    <color name="hintText">#42000000</color>
+
+    <!-- Action Bar Text -->
+    <color name="actionBarText">@android:color/white</color>
+
+</resources>

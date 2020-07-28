@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">dib Library</string>
+
+    <!-- Competitor default values -->
+    <string name="prefdef_surname">Surname</string>
+    <string name="prefdef_forename">Forename</string>
+    <string name="prefdef_class">Class</string>
+    <string name="prefdef_club">Club</string>
+    <string name="prefdef_id">ID</string>
+
+    <!-- Course default values -->
+    <string name="prefdef_course_length">0</string>
+    <string name="prefdef_course_name">Course</string>
+    
+    <!-- Control strings -->
+    <string name="dnf">dnf</string>
+    <string name="dns">dns</string>
+    <string name="fin">FIN</string>
+    <string name="mp">mp</string>
+    <string name="ok">OK</string>
+    <string name="str">STR</string>
+    <string name="dwn">DWN</string>
+    <string name="finish">Финиш</string>
+    <string name="nullTime">--:--:--</string>
+    <string name="rad">RAD</string>
+    <string name="start">Старт</string>
+    
+    <!-- Library strings -->
+    <string name="library_name">dib Library</string>
+    
+    <!-- Error strings -->
+    <string name="unable_to_save">Cannot save </string>
+
+
+</resources>

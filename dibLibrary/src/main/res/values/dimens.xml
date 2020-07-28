@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material Dimensions -->
+    <dimen name="margin">16dp</dimen>
+    <dimen name="grid">8dp</dimen>   
+    <dimen name="halfGrid">4dp</dimen>
+    <dimen name="dpMinimum">1dp</dimen>
+    
+    <dimen name="subhead">16sp</dimen>
+    <dimen name="body1">14sp</dimen>
+
+</resources>

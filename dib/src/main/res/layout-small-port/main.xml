@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rvCompetitor"
+        style="@style/infoBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right" >
+
+        <TextView
+            android:id="@+id/tvIdentifier"
+            style="@style/firstLineText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/halfGrid"
+            android:text="@string/identifier"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:id="@+id/tvClassification"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_toLeftOf="@id/tvIdentifier"
+            android:text="@string/classification"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:id="@+id/tvCompetitor"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/grid"
+            android:layout_toLeftOf="@id/tvClassification"
+            android:text="@string/competitor" />
+
+        <TextView
+            android:id="@+id/tvClub"
+            style="@style/firstLineText"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvIdentifier"
+            android:layout_marginRight="@dimen/halfGrid"
+            android:text="@string/club"
+            android:textColor="@color/secondaryText" />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/infoBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryLight" >
+
+        <TextView
+            android:id="@+id/tvCourseName"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/halfGrid"
+            android:text="@string/courseName" />
+
+        <TextView
+            android:id="@+id/tvCourseLength"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/halfGrid"
+            android:layout_toRightOf="@id/tvCourseName"
+            android:text="@string/courseLength"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:id="@+id/tvNumberOfControls"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/tvCourseLength"
+            android:text="@string/numberOfControls"
+            android:textColor="@color/secondaryText" />
+
+        <TextView
+            android:id="@+id/tvCourseStatus"
+            style="@style/firstLineText"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/halfGrid"
+            android:layout_toRightOf="@id/tvNumberOfControls"
+            android:text=""
+            android:textColor="@color/accent" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/cp_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Код КП"
+        android:inputType="text"
+        android:imeOptions="actionSend"/>
+    <ImageButton
+        android:id="@+id/btnDib"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:contentDescription="@string/dibButton"
+        android:gravity="center_vertical|center"
+        android:onClick="onDib"
+        android:src="@drawable/dib_button" />
+
+    <ListView
+        android:id="@+id/resultListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/halfGrid"
+        android:paddingRight="@dimen/halfGrid"
+        android:textSize="@dimen/body1" />
+
+</LinearLayout>
