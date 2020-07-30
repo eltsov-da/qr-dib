@@ -11,6 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -402,7 +403,7 @@ public class Dib extends ActionBarActivity {
 		String sCommand = getString( R.string.err );
 		SharedPreferences.Editor editor = mDefaultSharedPrefs.edit();
 		Boolean bIsCourseControl = true;
-		makeToast( "in readTagCommand" );
+		//makeToast( "in readTagCommand" );
 		//The command code is the first string of the control data.
 		sCommand = sTagDataArray[0].trim();
 		
@@ -423,7 +424,7 @@ public class Dib extends ActionBarActivity {
 			this.getContentResolver().delete( LocalStore.CONTENT_URI, null, null );
 			editor.putString( "prefkey_course_data", sTagData.substring( sTagData.indexOf(",") + 1 ) );
 			editor.commit();
-			makeToast( "edit ok");
+//			makeToast( "edit ok");
 		}		
 		
 		if ( sCommand.equalsIgnoreCase( getString( R.string.dwn ) ) )
@@ -441,8 +442,34 @@ public class Dib extends ActionBarActivity {
 			
 		//The non-course controls are CRS, DWN and RAD.
 		if ( bIsCourseControl ) 
-		{	
-			storeDib( sCommand.toUpperCase() );
+		{
+				String sCourse;
+				List<String> sCourseFields;
+
+				ControlCard controlCard = new ControlCard ( this );
+				Dibber dibber = new Dibber( this );
+				markCourse( controlCard, dibber );
+			//	if(dibber.getIndex(sCommand.toUpperCase(),0)>=0)
+			//		{
+					if (controlCard.getName().toUpperCase().startsWith("РОГЕЙН")|| controlCard.getName().toUpperCase().endsWith("SECURE")) {
+	//					if(!(sCommand.equalsIgnoreCase( "STR" )|| sCommand.equalsIgnoreCase("FIN" ))) {
+						List<String> sDibFields;
+						sDibFields = Arrays.asList( sCommand.toUpperCase().split( ":" ) );
+						if(sDibFields.size()>1)
+						{
+							if(controlCard.getCode(sDibFields.get(1).toString()).equalsIgnoreCase(sDibFields.get(0).toString())) {
+								if(controlCard.getFinishTimestamp()<0) {
+									if(controlCard.getfirstTimestamp(sDibFields.get(0).toString())<0) {
+										storeDib(sCommand.toUpperCase());
+									}
+								}
+							}
+						}
+	//						}
+						}
+				else {
+						storeDib(sCommand.toUpperCase());
+					}
 //			Toast.makeText( this, sCommand, Toast.LENGTH_LONG ).show();
 		}
 				
@@ -458,6 +485,7 @@ public class Dib extends ActionBarActivity {
 	private void storeDib( String sCode )
 	{
 		//Store the control code and system time in milliseconds.
+
 		ContentValues contentValues = new ContentValues();
 		if(sCode.length()<5) {
 			contentValues.put("col_1", sCode);
@@ -564,7 +592,8 @@ public class Dib extends ActionBarActivity {
 		}
 	}
 
-	/**
+	/*
+	*
 	 * Goes through the course looking on the dibber for the course controls - if it finds a control it 
 	 * marks the dibber timestamp onto the course, otherwise it marks the timestamp as Msg.INVALID_TIME.
 	 * @param course
@@ -579,6 +608,10 @@ public class Dib extends ActionBarActivity {
 		for ( int i=0; i<controlCard.getNumberOfControls()+2; i++ )
 		{
 			sCode = controlCard.getCode(i);
+
+			if (controlCard.getName().toUpperCase().startsWith("РОГЕЙН")) {
+				nStartingAt = 0;
+			}
 			nIndexOnDibber = dibber.getIndex( sCode, nStartingAt );
 			if ( nIndexOnDibber >= 0 )
 			{
@@ -628,38 +661,79 @@ public class Dib extends ActionBarActivity {
 	{
 		String sMessage = "";
 		String[] sMessageArray = new String[Msg.TIMESTAMPS+1];
-		String[] sCodesArray = new String[ controlCard.getNumberOfControls()+2 ];
-		String[] sSplitTimestampsArray = new String[ controlCard.getNumberOfControls()+2 ];
+		String[] sCodesArray;// = new String[ controlCard.getNumberOfControls()+2 ];
+		String[] sSplitTimestampsArray;// = new String[ controlCard.getNumberOfControls()+2 ];
 		long lStartTimestamp = controlCard.getTimestamp(0)/Msg.TIME_DIVISOR;
 		int i = 0;
 		
 		final SimpleDateFormat sdf_UTC_HH_mm_ss = new SimpleDateFormat( "HH:mm:ss" );
 		sdf_UTC_HH_mm_ss.setTimeZone( TimeZone.getTimeZone( "UTC" ) );
+if(!controlCard.getName().toUpperCase().startsWith("РОГЕЙН")) {
+	sCodesArray = new String[ controlCard.getNumberOfControls()+2 ];
+	sSplitTimestampsArray = new String[ controlCard.getNumberOfControls()+2 ];
+	sMessageArray[Msg.CODEWORD] = Msg.CODE_WORD;
+	sMessageArray[Msg.FORENAME] = competitor.getForename();
+	sMessageArray[Msg.SURNAME] = competitor.getSurname();
+	sMessageArray[Msg.CLUB] = competitor.getClub();
+	sMessageArray[Msg.CLASSIFICATION] = competitor.getClassification();
+	sMessageArray[Msg.IDENTIFIER] = competitor.getIdentifier();
+	sMessageArray[Msg.NAME] = controlCard.getName();
+	sMessageArray[Msg.STATUS] = controlCard.getResultStatus(this);
+	sMessageArray[Msg.OLD_TIME] = sdf_UTC_HH_mm_ss.format(controlCard.getCourseTime());
+	sMessageArray[Msg.LENGTH] = controlCard.getLength();
 
-		sMessageArray[Msg.CODEWORD] = Msg.CODE_WORD;
-		
-		sMessageArray[Msg.FORENAME] = competitor.getForename();
-		sMessageArray[Msg.SURNAME] = competitor.getSurname();
-		sMessageArray[Msg.CLUB] = competitor.getClub();
-		sMessageArray[Msg.CLASSIFICATION] = competitor.getClassification();
-		sMessageArray[Msg.IDENTIFIER] = competitor.getIdentifier();
-		sMessageArray[Msg.NAME] = controlCard.getName();
-		sMessageArray[Msg.STATUS] = controlCard.getResultStatus( this );
-		sMessageArray[Msg.OLD_TIME] = sdf_UTC_HH_mm_ss.format( controlCard.getCourseTime() );
-		sMessageArray[Msg.LENGTH] = controlCard.getLength();
-		
-		//Additional data provided in long message...
-		sMessageArray[Msg.TIME] = Long.toString( controlCard.getCourseTime()/Msg.TIME_DIVISOR );
-		sMessageArray[Msg.CODES] = "";
-		sMessageArray[Msg.TIMESTAMPS] = "";
-				
-		//Populate the codes and their timestamps.
-		for ( i=0; i<controlCard.getNumberOfControls()+2; i++ )
-		{
-			sCodesArray[i] = controlCard.getCode(i);
-			sSplitTimestampsArray[i] = Long.toString( controlCard.getTimestamp(i)/Msg.TIME_DIVISOR - lStartTimestamp );
+	//Additional data provided in long message...
+	sMessageArray[Msg.TIME] = Long.toString(controlCard.getCourseTime() / Msg.TIME_DIVISOR);
+	sMessageArray[Msg.CODES] = "";
+	sMessageArray[Msg.TIMESTAMPS] = "";
+
+	//Populate the codes and their timestamps.
+	for (i = 0; i < controlCard.getNumberOfControls() + 2; i++) {
+		sCodesArray[i] = controlCard.getCode(i);
+		sSplitTimestampsArray[i] = Long.toString(controlCard.getTimestamp(i) / Msg.TIME_DIVISOR - lStartTimestamp);
+	}
+	sSplitTimestampsArray[0] = Long.toString(lStartTimestamp);
+}
+else
+{	long lStartTime = Msg.INVALID_TIME;
+	long lPreTime = Msg.INVALID_TIME;
+	long lFinTime = Msg.INVALID_TIME;
+	Dibber dibber = new Dibber ( this );
+	sCodesArray = new String[ dibber.getNumberOfDibs()];
+	sSplitTimestampsArray = new String[ dibber.getNumberOfDibs()];
+	sMessageArray[Msg.CODEWORD] = Msg.CODE_WORD;
+	sMessageArray[Msg.FORENAME] = competitor.getForename();
+	sMessageArray[Msg.SURNAME] = competitor.getSurname();
+	sMessageArray[Msg.CLUB] = competitor.getClub();
+	sMessageArray[Msg.CLASSIFICATION] = competitor.getClassification();
+	sMessageArray[Msg.IDENTIFIER] = competitor.getIdentifier();
+	sMessageArray[Msg.NAME] = controlCard.getName();
+
+	sMessageArray[Msg.STATUS] = getRogainStatus(dibber);
+	sMessageArray[Msg.OLD_TIME] = sdf_UTC_HH_mm_ss.format(controlCard.getCourseTime());
+	sMessageArray[Msg.LENGTH] = controlCard.getLength();
+
+	//Additional data provided in long message...
+
+	sMessageArray[Msg.CODES] = "";
+	sMessageArray[Msg.TIMESTAMPS] = "";
+	for (i = 0; i < dibber.getNumberOfDibs(); i++) {
+		if (dibber.getCode(i).equalsIgnoreCase("STR")) {
+			lStartTime = dibber.getTimestamp(i);
+//			lPreTime = dibber.getTimestamp(i);
+		} else {
+			if (dibber.getCode(i).equalsIgnoreCase("FIN")) {
+				lFinTime = dibber.getTimestamp(i);
+			}
 		}
-		sSplitTimestampsArray[0] = Long.toString( lStartTimestamp );
+		sCodesArray[i] = dibber.getCode(i);
+		sSplitTimestampsArray[i] = Long.toString((dibber.getTimestamp(i) - lStartTime)/ Msg.TIME_DIVISOR );
+
+	}
+	sMessageArray[Msg.TIME] = Long.toString((lFinTime-lStartTime) / Msg.TIME_DIVISOR);
+	sSplitTimestampsArray[0] = Long.toString(lStartTime/1000);
+
+	}
 		sMessageArray[Msg.CODES] = TextUtils.join( Msg.SPLIT_DELIMITER, sCodesArray );
 		sMessageArray[Msg.TIMESTAMPS] = TextUtils.join( Msg.SPLIT_DELIMITER, sSplitTimestampsArray );
 		
@@ -670,6 +744,22 @@ public class Dib extends ActionBarActivity {
 	/**
 	 * This creates a ResultSlip object and uses it to get result slip data which it then displays.
 	 */
+	private String getRogainStatus(Dibber dibber) {
+		String rs = "н/c";
+		for (int i = 0; i < dibber.getNumberOfDibs(); i++) {
+			if (dibber.getCode(i).equalsIgnoreCase("STR")) {
+				rs = "н/ф";
+			}
+			if (dibber.getCode(i).equalsIgnoreCase("FIN")) {
+				if (rs.equalsIgnoreCase("н/ф")) {
+					rs = "OK";
+				} else
+					rs = "н/с";
+			}
+		}
+		return (rs);
+	}
+
 	private void displayResultSlip()
 	{
 		TextView tvCourseStatus = (TextView) findViewById( R.id.tvCourseStatus );		
@@ -682,10 +772,16 @@ public class Dib extends ActionBarActivity {
 		
 		ControlCard controlCard = new ControlCard( this );
 		Dibber dibber = new Dibber( this );
-		markCourse( controlCard, dibber );
-		
+		if (!controlCard.getName().toUpperCase().startsWith("РОГЕЙН")) {
+			markCourse(controlCard, dibber);
+			tvCourseStatus.setText( controlCard.getResultStatus( this ) );
+		}
+		else
+		{
+			tvCourseStatus.setText(getRogainStatus(dibber));
+		}
 		//Display course status.		
-		tvCourseStatus.setText( controlCard.getResultStatus( this ) );
+
 		
 		//Display result lines.
 		ResultSlip resultSlip = new ResultSlip( controlCard, dibber, this );		
@@ -774,8 +870,19 @@ public class Dib extends ActionBarActivity {
 		TextView tvNumberOfControls = (TextView) findViewById( R.id.tvNumberOfControls );
 		
 		tvCourseName.setText( controlCard.getName() );
-		tvCourseLength.setText( controlCard.getLength() + getString( R.string.metres ) );	
-		tvNumberOfControls.setText( "(" + controlCard.getNumberOfControls() + " " + getString( R.string.controls ) + ")" );
+		if(controlCard.getName().toUpperCase().startsWith("РОГЕЙН"))
+		{
+			Dibber dibber = new Dibber( this );
+			markCourse( controlCard, dibber );
+			tvCourseLength.setText("очки:"+controlCard.getScore().toString());
+			tvNumberOfControls.setText( "(" +controlCard.getTakenNumberOfControls()+"/"+ controlCard.getNumberOfControls() + " " + getString( R.string.controls ) + ")" );
+		}
+		else {
+			tvCourseLength.setText(controlCard.getLength() + getString(R.string.metres));
+			tvNumberOfControls.setText( "(" + controlCard.getNumberOfControls() + " " + getString( R.string.controls ) + ")" );
+		}
+
+
 	}
 	
 	//-------------Standing Item Creation-------------------

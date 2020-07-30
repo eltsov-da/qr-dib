@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
                     "source": "C:\\Users\\eltsov.T-PROJECT\\.gradle\\caches\\transforms-2\\files-2.1\\ad8648b0514ada5a1e3f44f52c4c712d\\appcompat-v7-21.0.3\\res\\values-v11\\values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dibLibrary\\build\\intermediates\\packaged_res\\debug\\values-v11\\values-v11.xml",
+                    "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dibLibrary\\build\\intermediates\\packaged_res\\debug\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

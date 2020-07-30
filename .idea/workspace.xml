@@ -9,7 +9,266 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a27bcb-0c9e-4e43-b90e-a1aadfa877d7" name="Default Changelist" comment="" />
+    <list default="true" id="46a27bcb-0c9e-4e43-b90e-a1aadfa877d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/dib/dib_r-dib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/dib_r.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/dib/dib-dib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-bn-rBD.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-bn-rBD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-et-rEE.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-et-rEE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-eu-rES.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-eu-rES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-gl-rES.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-gl-rES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hy-rAM.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-hy-rAM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-is-rIS.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-is-rIS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ka-rGE.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ka-rGE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-kk-rKZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-kk-rKZ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-km-rKH.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-km-rKH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-kn-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-kn-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ky-rKG.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ky-rKG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lo-rLA.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lo-rLA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mk-rMK.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mk-rMK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ml-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ml-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mn-rMN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mn-rMN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mr-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-mr-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ms-rMY.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ms-rMY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ne-rNP.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ne-rNP.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-si-rLK.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-si-rLK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ta-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ta-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-te-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-te-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ur-rPK.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-ur-rPK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-uz-rUZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-uz-rUZ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v11.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v14.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w360dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w360dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w480dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w480dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w500dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w500dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-w720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-xlarge-land-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-xlarge-land-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib.class" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/Dib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/ResultSlip.class" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/javac/debug/classes/com/appindesign/dib/ResultSlip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib.dex" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/Dib.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/ResultSlip.dex" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/project_dex_archive/debug/out/com/appindesign/dib/ResultSlip.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-hdpi_ic_dib.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-hdpi_ic_dib.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-ldpi_ic_dib.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-ldpi_ic_dib.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-mdpi_ic_dib.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-mdpi_ic_dib.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-xhdpi_ic_dib.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-xhdpi_ic_dib.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_dib.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_dib.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dib_button.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dib_button.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dib_button_pressed.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dib_button_pressed.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dibbutton.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/drawable_dibbutton.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout-small-port_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout-small-port_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout_result_leg.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/layout_result_leg.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/menu_options.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/menu_options.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-bn-rBD_values-bn-rBD.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-bn-rBD_values-bn-rBD.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-et-rEE_values-et-rEE.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-et-rEE_values-et-rEE.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-eu-rES_values-eu-rES.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-eu-rES_values-eu-rES.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-gl-rES_values-gl-rES.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-gl-rES_values-gl-rES.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hy-rAM_values-hy-rAM.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-hy-rAM_values-hy-rAM.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-is-rIS_values-is-rIS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-is-rIS_values-is-rIS.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ka-rGE_values-ka-rGE.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ka-rGE_values-ka-rGE.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-kk-rKZ_values-kk-rKZ.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-kk-rKZ_values-kk-rKZ.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-km-rKH_values-km-rKH.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-km-rKH_values-km-rKH.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-kn-rIN_values-kn-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-kn-rIN_values-kn-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ky-rKG_values-ky-rKG.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ky-rKG_values-ky-rKG.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lo-rLA_values-lo-rLA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lo-rLA_values-lo-rLA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mk-rMK_values-mk-rMK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mk-rMK_values-mk-rMK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mn-rMN_values-mn-rMN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mn-rMN_values-mn-rMN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mr-rIN_values-mr-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-mr-rIN_values-mr-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ms-rMY_values-ms-rMY.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ms-rMY_values-ms-rMY.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-my-rMM_values-my-rMM.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-my-rMM_values-my-rMM.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ne-rNP_values-ne-rNP.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ne-rNP_values-ne-rNP.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-si-rLK_values-si-rLK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-si-rLK_values-si-rLK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-te-rIN_values-te-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-te-rIN_values-te-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-uz-rUZ_values-uz-rUZ.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-uz-rUZ_values-uz-rUZ.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w360dp-v13_values-w360dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w360dp-v13_values-w360dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w480dp-v13_values-w480dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w480dp-v13_values-w480dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w500dp-v13_values-w500dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w500dp-v13_values-w500dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w600dp-v13_values-w600dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w600dp-v13_values-w600dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w720dp-v13_values-w720dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-w720dp-v13_values-w720dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-xlarge-land-v4_values-xlarge-land-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-xlarge-land-v4_values-xlarge-land-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/xml-v14_preferences.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/xml-v14_preferences.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/xml-v8_preferences.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/intermediates/res/merged/debug/xml-v8_preferences.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/outputs/apk/debug/dib-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/outputs/apk/debug/dib-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dib/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/src/main/java/com/appindesign/dib/Dib.java" beforeDir="false" afterPath="$PROJECT_DIR$/dib/src/main/java/com/appindesign/dib/Dib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/src/main/java/com/appindesign/dib/ResultSlip.java" beforeDir="false" afterPath="$PROJECT_DIR$/dib/src/main/java/com/appindesign/dib/ResultSlip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dib/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dib/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_action_discard.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_ic_action_discard.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_action_discard.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_action_discard.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_ic_launcher.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_action_discard.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_ic_action_discard.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_action_discard.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/compiled_local_resources/debug/out/drawable-xxhdpi-v4_ic_action_discard.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/javac/debug/classes/com/appindesign/diblibrary/ControlCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/javac/debug/classes/com/appindesign/diblibrary/ControlCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dibLibrary/src/main/java/com/appindesign/diblibrary/ControlCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/dibLibrary/src/main/java/com/appindesign/diblibrary/ControlCard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +296,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e2OQtvpls1T3aPTaXkiHcl6d7d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +311,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.appindesign.dib" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
@@ -60,7 +323,7 @@
     <option name="BUILD_VARIANTS_TAB" value="Flavors" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.dib_r-dib">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -70,6 +333,57 @@
     </configuration>
     <configuration name="dib-dib" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="dib-dib" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dib_r-dib" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="dib_r-dib" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -172,6 +486,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="136" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1594132392324" />
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1596102914204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596102914204" />
     <state width="445" height="438" key="DebuggerActiveHint" timestamp="1594131459454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -181,38 +499,38 @@
     </state>
     <state x="526" y="201" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594195679177" />
     <state x="740" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.120.1920.1040@0.0.1920.1160" timestamp="1593516505147" />
-    <state width="1286" height="169" key="GridCell.Tab.0.bottom" timestamp="1595512918452">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1596037646854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595512918452" />
-    <state width="1286" height="169" key="GridCell.Tab.0.center" timestamp="1595512918451">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596037646854" />
+    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1596037646853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595512918451" />
-    <state width="1286" height="169" key="GridCell.Tab.0.left" timestamp="1595512918451">
+    <state width="1323" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596037646853" />
+    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1596037646853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595512918451" />
-    <state width="1286" height="169" key="GridCell.Tab.0.right" timestamp="1595512918451">
+    <state width="1323" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596037646853" />
+    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1596037646853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595512918451" />
-    <state width="1286" height="169" key="GridCell.Tab.1.bottom" timestamp="1595512918452">
+    <state width="1323" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596037646853" />
+    <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1596037646855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595512918452" />
-    <state width="1286" height="169" key="GridCell.Tab.1.center" timestamp="1595512918452">
+    <state width="1323" height="169" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596037646855" />
+    <state width="1323" height="169" key="GridCell.Tab.1.center" timestamp="1596037646854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595512918452" />
-    <state width="1286" height="169" key="GridCell.Tab.1.left" timestamp="1595512918452">
+    <state width="1323" height="169" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596037646854" />
+    <state width="1323" height="169" key="GridCell.Tab.1.left" timestamp="1596037646854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595512918452" />
-    <state width="1286" height="169" key="GridCell.Tab.1.right" timestamp="1595512918452">
+    <state width="1323" height="169" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596037646854" />
+    <state width="1323" height="169" key="GridCell.Tab.1.right" timestamp="1596037646854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595512918452" />
+    <state width="1323" height="169" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596037646854" />
     <state x="328" y="13" key="SettingsEditor" timestamp="1593585177147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,9 +546,19 @@
     <state x="466" y="252" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593524514967" />
     <state x="466" y="252" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593586667498" />
     <state x="655" y="402" key="com.intellij.ide.util.TipDialog/0.0.1920.1160/1920.120.1920.1040@0.0.1920.1160" timestamp="1593516216851" />
+    <state x="335" y="168" key="run.anything.popup" timestamp="1596015263299">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="335" y="168" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1596015263299" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
+      <configuration name="dib_r-dib">
+        <watch expression="rs.equalsIgnoreCase(&quot;н/ф&quot;)" language="JAVA" />
+        <watch expression="dibber.getCode(i).equalsIgnoreCase(&quot;FIN&quot;)" language="JAVA" />
+        <watch expression="dibber.getCode(i)" language="JAVA" />
+        <watch expression="dibber.getIndex(&quot;FIN&quot;,0)" language="JAVA" />
+      </configuration>
       <configuration name="dib-dib">
         <watch expression="e" language="JAVA" />
       </configuration>

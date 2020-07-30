@@ -207,6 +207,22 @@ public class ControlCard
 	public String getLength() {
 		return length;
 	}
+
+	public Integer getScore() {
+		int score=0;
+		for(int i=0;i<dibs.size();i++)
+		{
+				try {
+					if(dibs.get(i).getTimestamp()!=Msg.INVALID_TIME) {
+					score += Integer.parseInt(dibs.get(i).getCode().substring(0, 1));
+				}
+			}
+			catch(NumberFormatException nfe)
+			{score=score;}
+		}
+		return(score);
+	}
+
 	public String getInid( int i ) {
 		if ( dibs != null && i >= 0 && i < dibs.size() )
 			return dibs.get(i).getIntid();
@@ -238,15 +254,40 @@ public class ControlCard
 		else
 			return 0;
 	}
-	
-	public long getTimestamp( int i )
+	public int getTakenNumberOfControls() {
+		int score=0;
+		for(int i=0;i<dibs.size();i++)
+		{
+			try {
+				if((dibs.get(i).getTimestamp()!=Msg.INVALID_TIME) && (!dibs.get(i).getCode().equalsIgnoreCase("STR"))
+						&& (!dibs.get(i).getCode().equalsIgnoreCase("FIN"))) {
+					score ++;
+				}
+			}
+			catch(NumberFormatException nfe)
+			{score=score;}
+		}
+		return(score);
+	}
+public long getTimestamp( int i )
 	{
 		if ( dibs != null && i >= 0 && i < dibs.size() )
 			return dibs.get(i).getTimestamp();
 		else
 			return ( Msg.INVALID_TIME );
 	}
-	
+	public long getfirstTimestamp( String sCode )
+	{
+		for(int i =0;i<dibs.size();i++)
+		{
+			if(dibs.get(i).getCode().equalsIgnoreCase(sCode))
+			{
+				return dibs.get(i).getTimestamp();
+			}
+		}
+			return ( Msg.INVALID_TIME );
+	}
+
 	public void setTimestamp( int i, long timestamp )
 	{
 		if ( dibs != null && i >=0 && i < dibs.size() )

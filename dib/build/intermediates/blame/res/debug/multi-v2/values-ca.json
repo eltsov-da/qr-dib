@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
+            "outputFile": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\eltsov.T-PROJECT\\.gradle\\caches\\transforms-2\\files-2.1\\ad8648b0514ada5a1e3f44f52c4c712d\\appcompat-v7-21.0.3\\res\\values-ca\\values.xml",

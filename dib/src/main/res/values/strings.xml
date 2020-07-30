@@ -94,7 +94,7 @@
     <string name="wakelock_enabled">Включено</string>
     <string name="wakelock_disabled">Выключено</string>
     <string name="prefsum_site">URL для отправки</string>
-    <string name="prefdef_site">http://qr-orient.ru/qrdib/load/</string>
+    <string name="prefdef_site">https://qr-orient.ru/qrdib/load/</string>
     <string name="preftit_site">URL для отправки</string>
 
 </resources>

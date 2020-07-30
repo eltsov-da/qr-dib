@@ -208,7 +208,7 @@
     <string name="prefdef_id">Номер</string>
     <string name="prefdef_mode">Выключен</string>
     <string name="prefdef_screenon">Выключено</string>
-    <string name="prefdef_site">http://qr-orient.ru/qrdib/load/</string>
+    <string name="prefdef_site">https://qr-orient.ru/qrdib/load/</string>
     <string name="prefdef_surname">Фамилия</string>
     <string name="prefdef_wakelock">Выключено</string>
     <string name="prefstitle">Настройки</string>

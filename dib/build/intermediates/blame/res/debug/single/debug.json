@@ -1,58 +1,58 @@
 [
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dib.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable-mdpi\\ic_dib.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\xml-v8_preferences.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\xml-v8\\preferences.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\menu_options.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\menu\\options.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\layout-small-port_main.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\layout-small-port\\main.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\layout_result_leg.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\layout\\result_leg.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dib.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable-xxhdpi\\ic_dib.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\layout-small-port_main.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\layout-small-port\\main.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dib.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable-xxhdpi\\ic_dib.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dib.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable-mdpi\\ic_dib.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\xml-v8_preferences.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\xml-v8\\preferences.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dib_button_pressed.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable\\dib_button_pressed.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dib_button_pressed.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable\\dib_button_pressed.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dib.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable-ldpi\\ic_dib.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\layout\\main.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dib.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable-hdpi\\ic_dib.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dib.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable-xhdpi\\ic_dib.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dib.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable-xhdpi\\ic_dib.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dib_button.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable\\dib_button.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dibbutton.png.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable\\dibbutton.png"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dib.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable-ldpi\\ic_dib.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dib_button.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\drawable\\dib_button.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\xml-v14_preferences.xml.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\xml-v14\\preferences.xml"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\layout_result_leg.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\layout\\result_leg.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dib.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable-hdpi\\ic_dib.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\menu_options.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\menu\\options.xml"
     },
     {
-        "merged": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\build\\intermediates\\res\\merged\\debug\\drawable_dibbutton.png.flat",
-        "source": "F:\\HdmiExtenderService\\qrdib\\dib\\dib\\src\\main\\res\\drawable\\dibbutton.png"
+        "merged": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\build\\intermediates\\res\\merged\\debug\\xml-v14_preferences.xml.flat",
+        "source": "F:\\HdmiExtenderService\\qrdib\\dib_r\\dib\\src\\main\\res\\xml-v14\\preferences.xml"
     }
 ]

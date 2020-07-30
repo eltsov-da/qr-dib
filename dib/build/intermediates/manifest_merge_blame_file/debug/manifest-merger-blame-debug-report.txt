@@ -4,144 +4,143 @@
 4    android:versionCode="7"
 5    android:versionName="1.7" > <!-- API 14 is required for beam -->
 6    <uses-sdk
-6-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+6-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:8:5-47
 7        android:minSdkVersion="8"
-7-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:5-47
+7-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:8:5-47
 8        android:targetSdkVersion="29" />
-8-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:8:15-44
+8-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:8:15-44
 9
 10    <!-- PERMISSIONS -->
 11    <uses-permission android:name="android.permission.NFC" />
-11-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:11:5-62
-11-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:11:22-59
+11-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:11:5-62
+11-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:11:22-59
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:12:5-68
-12-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:12:22-65
+12-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:12:5-68
+12-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:12:22-65
 13    <uses-permission android:name="com.android.vending.BILLING" />
-13-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:13:5-67
-13-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:13:22-64
+13-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:13:5-67
+13-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:13:22-64
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:14:5-67
-14-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:14:22-64
+14-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:14:5-67
+14-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:14:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:16:5-79
-15-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:16:22-76
+15-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:16:5-79
+15-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:16:22-76
 16    <uses-permission android:name="android.permission.SEND_SMS" />
-16-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:17:5-67
-16-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:17:22-64
+16-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:17:5-67
+16-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:17:22-64
 17
 18    <!-- FEATURES -->
 19    <uses-feature
-19-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:5-82
+19-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:20:5-82
 20        android:name="android.hardware.nfc"
-20-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:19-54
+20-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:20:19-54
 21        android:required="false" />
-21-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:20:55-79
+21-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:20:55-79
 22    <uses-feature
-22-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:5-87
+22-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:21:5-87
 23        android:name="android.hardware.telephony"
-23-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:19-60
+23-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:21:19-60
 24        android:required="false" />
-24-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:21:61-85
+24-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:21:61-85
 25    <uses-feature
-25-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:5-84
+25-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:22:5-84
 26        android:name="android.hardware.camera"
-26-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:19-57
+26-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:22:19-57
 27        android:required="false" />
-27-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:22:58-82
+27-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:22:58-82
 28
 29    <supports-screens
-29-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:5-138
+29-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:24:5-138
 30        android:largeScreens="true"
-30-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:23-50
+30-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:24:23-50
 31        android:normalScreens="true"
-31-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:51-79
+31-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:24:51-79
 32        android:smallScreens="true"
-32-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:80-107
+32-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:24:80-107
 33        android:xlargeScreens="true" />
-33-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:24:108-136
+33-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:24:108-136
 34
 35    <!-- APPLICATION -->
 36    <application
-36-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:27:5-66:19
+36-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:27:5-66:19
 37        android:allowBackup="true"
-37-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:28:9-35
+37-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:28:9-35
 38        android:debuggable="true"
 39        android:icon="@drawable/ic_dib"
-39-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:29:9-40
+39-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:29:9-40
 40        android:label="@string/app_name"
-40-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:30:9-41
-41        android:testOnly="true"
-42        android:theme="@style/AppTheme"
-42-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:32:9-40
-43        android:usesCleartextTraffic="true" >
-43-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:31:9-44
-44
-45        <!-- MAIN ACTIVITY -->
-46        <activity
-46-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:35:9-50:20
-47            android:name="com.appindesign.dib.Dib"
-47-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:36:13-51
-48            android:label="@string/app_name"
-48-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:37:13-45
-49            android:launchMode="singleTask" >
-49-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:38:13-44
-50
-51            <!-- android:screenOrientation="portrait" -->
-52
-53            <intent-filter>
-53-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:41:13-44:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:42:17-69
-54-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:42:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:43:17-77
-56-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:43:27-74
-57            </intent-filter>
-58            <intent-filter>
-58-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:45:13-49:29
-59                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-59-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:46:17-77
-59-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:46:25-74
-60
-61                <category android:name="android.intent.category.DEFAULT" />
-61-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:17-76
-61-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:27-73
-62
-63                <data android:mimeType="application/vnd.com.appindesign.dib" />
-63-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:48:17-80
-63-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:48:23-77
-64            </intent-filter>
-65        </activity>
-66
-67        <!-- PREFERENCES ACTIVITY -->
-68        <activity
-68-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:53:9-61:20
-69            android:name="com.appindesign.dib.Preferences"
-69-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:54:13-59
-70            android:label="@string/prefstitle"
-70-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:55:13-47
-71            android:screenOrientation="portrait" >
-71-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:56:13-49
-72            <intent-filter>
-72-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:57:13-60:29
-73                <action android:name="com.appindesign.dibber" />
-73-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:58:17-65
-73-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:58:25-62
-74
-75                <category android:name="android.intent.category.DEFAULT" />
-75-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:17-76
-75-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:47:27-73
-76            </intent-filter>
-77        </activity>
-78
-79        <provider
-79-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:63:9-65:68
-80            android:name="com.appindesign.dib.LocalStore"
-80-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:64:13-58
-81            android:authorities="com.appindesign.dib.LocalStore" />
-81-->F:\HdmiExtenderService\qrdib\dib\dib\src\main\AndroidManifest.xml:65:13-65
-82    </application>
-83
-84</manifest>
+40-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:30:9-41
+41        android:theme="@style/AppTheme"
+41-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:32:9-40
+42        android:usesCleartextTraffic="true" >
+42-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:31:9-44
+43
+44        <!-- MAIN ACTIVITY -->
+45        <activity
+45-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:35:9-50:20
+46            android:name="com.appindesign.dib.Dib"
+46-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:36:13-51
+47            android:label="@string/app_name"
+47-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:37:13-45
+48            android:launchMode="singleTask" >
+48-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:38:13-44
+49
+50            <!-- android:screenOrientation="portrait" -->
+51
+52            <intent-filter>
+52-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:41:13-44:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:42:17-69
+53-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:42:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:43:17-77
+55-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:43:27-74
+56            </intent-filter>
+57            <intent-filter>
+57-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:45:13-49:29
+58                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+58-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:46:17-77
+58-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:46:25-74
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:47:17-76
+60-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:47:27-73
+61
+62                <data android:mimeType="application/vnd.com.appindesign.dib" />
+62-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:48:17-80
+62-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:48:23-77
+63            </intent-filter>
+64        </activity>
+65
+66        <!-- PREFERENCES ACTIVITY -->
+67        <activity
+67-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:53:9-61:20
+68            android:name="com.appindesign.dib.Preferences"
+68-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:54:13-59
+69            android:label="@string/prefstitle"
+69-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:55:13-47
+70            android:screenOrientation="portrait" >
+70-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:56:13-49
+71            <intent-filter>
+71-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:57:13-60:29
+72                <action android:name="com.appindesign.dibber" />
+72-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:58:17-65
+72-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:58:25-62
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:47:17-76
+74-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:47:27-73
+75            </intent-filter>
+76        </activity>
+77
+78        <provider
+78-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:63:9-65:68
+79            android:name="com.appindesign.dib.LocalStore"
+79-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:64:13-58
+80            android:authorities="com.appindesign.dib.LocalStore" />
+80-->F:\HdmiExtenderService\qrdib\dib_r\dib\src\main\AndroidManifest.xml:65:13-65
+81    </application>
+82
+83</manifest>

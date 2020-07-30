@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dib.iml" filepath="$PROJECT_DIR$/dib.iml" group="dib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dib/dib-dib.iml" filepath="$PROJECT_DIR$/.idea/modules/dib/dib-dib.iml" group="dib/dib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" group="dib/dibLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/dibLibrary/dibLibrary.iml" group="dib_r/dibLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dib_r.iml" filepath="$PROJECT_DIR$/.idea/modules/dib_r.iml" group="dib_r" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dib/dib_r-dib.iml" filepath="$PROJECT_DIR$/.idea/modules/dib/dib_r-dib.iml" group="dib_r/dib" />
     </modules>
   </component>
 </project>
