@@ -1,5 +1,5 @@
 # qr-dib
-Fork from appindesign/dib 
-Russian translation
-Support Rogain and Vibor
-Send results to https://qr-orient.ru/
+Fork from appindesign/dib <br>
+Russian translation<br>
+Support Rogain and Vibor<br>
+Send results to https://qr-orient.ru/<br>
